@@ -1,1 +1,256 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@charset "UTF-8";
+/* создание border-box */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Остальной код */
+body {
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #757575;
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+img {
+  display: block;
+}
+
+/* обнуление марджинов*/
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*отключаем подчеркивание в ссылках*/
+.underline {
+  text-decoration: none;
+}
+
+/* Скрывает заголовок*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*h2 заголовки в секции*/
+.section-name {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.17;
+  color: var(--heading-text-color);
+}
+
+/******************** настройка logo**********************/
+/*logo вверху и внизу*/
+.logo-web {
+  color: var(--logo-color-web);
+}
+
+.logo-footer.logo {
+  color: var(--text-on-background);
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--header-color-logo);
+  margin-right: 85px;
+}
+
+/*************  header  ******************/
+.header-address > address {
+  font-style: normal;
+}
+
+.header-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu.open::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  margin-top: 28px;
+  position: absolute;
+}
+
+.header-menu:hover, .header-menu:focus, .header-menu.open {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.header-address:focus, .header-address:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.header-address:focus .address-navigation-icon,
+.header-address:hover .address-navigation-icon {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.section-hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/jpg/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 1600px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-h1 {
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  font-size: 44px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 0px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  /* padding-top: 200px; */
+}
+
+/*кнопка в герои*/
+.hero-button {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 1.87;
+  font-size: 16px;
+  font-weight: 700;
+  background: #2196f3;
+  min-width: 200px;
+  min-height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/******* секция about us*********/
+.aboutus-headers {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.section-about-us .list-style {
+  display: flex;
+}
+
+.section-about-us .about-us-list {
+  width: 270px;
+}
+
+.section-about-us .about-us-list:not(:last-child) {
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-us-list .aboutus-headers {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.about-us-list .aboutus-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section-about-us .container {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
+.section-about-us .about-us-img {
+  width: 70px;
+  height: 70px;
+}
+
+.section-about-us .about-us-back-img {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  border-radius: 4px;
+}
+
+/**************** Чем мы занимаемся      **********/
+.section-our-occupation .container {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
+.section-our-occupation .section-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+.section-our-occupation .list-style {
+  display: flex;
+}
+
+.section-our-occupation .list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-occupation-list {
+  position: relative;
+}
+
+.section-our-occupation .background-text {
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  position: absolute;
+  min-width: 370px;
+  bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */
