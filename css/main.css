@@ -362,7 +362,29 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--header-email-telefon);
+  color: #757575;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-address:focus, .header-address:hover,
+.header-address:focus .address-navigation-icon,
+.header-address:hover .address-navigation-icon {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.header-menu {
+  display: block;
+  position: relative;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  color: #212121;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  font-weight: 500;
+  font-size: 14px;
   transition: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -379,30 +401,9 @@ ul {
   position: absolute;
 }
 
-.header-menu:hover,
-.header-menu:focus,
-.header-menu.open,
-.header-address:focus,
-.header-address:hover,
-.header-address:focus .address-navigation-icon,
-.header-address:hover .address-navigation-icon {
-  color: var(--link-changing-color);
-  fill: var(--link-changing-color);
-}
-
-.header-menu {
-  display: block;
-  position: relative;
-  padding-bottom: 32px;
-  padding-top: 32px;
-  color: var(--heading-text-color);
-  letter-spacing: 0.02em;
-  line-height: 1.14;
-  font-weight: 500;
-  font-size: 14px;
-  transition: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.header-menu:hover, .header-menu:focus, .header-menu.open {
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 .work-button:hover, .work-button:focus, .active {
