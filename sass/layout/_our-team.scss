@@ -1,5 +1,4 @@
 /****************** our team ******************************/
-
 .section-name-list {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -19,16 +18,16 @@
   height: 44px;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.list-name-social-network:hover,
-.list-name-social-network:focus {
-  background-color: #2196f3;
-}
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
 
-.list-name-social-network:hover .list-name-icon,
-.list-name-social-network:focus .list-name-icon {
-  fill: #ffffff;
+  &:hover .list-name-icon,
+  &:focus .list-name-icon {
+    fill: #ffffff;
+  }
 }
 
 .list-name-icon {
@@ -68,7 +67,8 @@
 
 .section-list-name .social-network {
   padding-bottom: 36px;
-}
-.section-list-name .social-network:not(:last-child) {
-  margin-right: 10px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
