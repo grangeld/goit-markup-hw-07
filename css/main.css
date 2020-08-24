@@ -449,7 +449,7 @@ ul {
   margin: 0;
   font-size: 18px;
   line-height: 1.55;
-  color: var(--text-on-background);
+  color: #ffffff;
   width: 370px;
   height: 294px;
   background-color: rgba(33, 150, 243, 0.9);

@@ -3,7 +3,7 @@
   margin: 0;
   font-size: 18px;
   line-height: 1.55;
-  color: var(--text-on-background);
+  color: $text-on-background;
   width: 370px;
   height: 294px;
   background-color: rgba(33, 150, 243, 0.9);
@@ -25,7 +25,9 @@
   overflow: hidden;
 }
 
-.content-portfolio-list a:hover .work-invisible,
-.content-portfolio-list a:focus .work-invisible {
-  transform: translateY(-100%);
+.content-portfolio-list {
+  a:hover .work-invisible,
+  a:focus .work-invisible {
+    transform: translateY(-100%);
+  }
 }
