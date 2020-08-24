@@ -67,15 +67,13 @@ ul {
   color: #212121;
 }
 
-/******************** настройка logo**********************/
 /*logo вверху и внизу*/
 .logo-web {
-  color: var(--logo-color-web);
+  color: #2196f3;
 }
 
 .logo-footer.logo {
-  color: var(--text-on-background);
-  /* margin-bottom: 200px; */
+  color: #ffffff;
 }
 
 .logo {
@@ -84,7 +82,7 @@ ul {
   text-decoration: none;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--header-color-logo);
+  color: #000000;
   margin-right: 85px;
 }
 

@@ -1,12 +1,10 @@
-/******************** настройка logo**********************/
 /*logo вверху и внизу*/
 .logo-web {
-  color: var(--logo-color-web);
+  color: $logo-color-web;
 }
 
 .logo-footer.logo {
-  color: var(--text-on-background);
-  /* margin-bottom: 200px; */
+  color: $text-on-background;
 }
 
 .logo {
@@ -15,6 +13,6 @@
   text-decoration: none;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--header-color-logo);
+  color: $header-color-logo;
   margin-right: 85px;
 }
