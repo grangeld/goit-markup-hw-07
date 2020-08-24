@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/* настройка шрифтов стандартов */
+body {
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #757575;
+  background-color: #ffffff;
+  margin: 0px;
+}
+
 /* создание border-box */
 html {
   box-sizing: border-box;

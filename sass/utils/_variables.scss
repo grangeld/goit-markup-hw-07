@@ -7,3 +7,13 @@ $link-changing-color: #2196f3;
 $text-on-background: #ffffff;
 $heading-text-color: #212121;
 $body-color: #ffffff;
+
+/* настройка шрифтов стандартов */
+body {
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: $text-color;
+  background-color: $body-color;
+  margin: 0px;
+}
