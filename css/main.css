@@ -433,13 +433,13 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--heading-text-color);
+  color: #212121;
 }
 
 .work-description {
   font-size: 16px;
   line-height: 1.87;
-  color: var(--text-color);
+  color: #757575;
 }
 
 /*невидимый текст, который будет появляться*/
