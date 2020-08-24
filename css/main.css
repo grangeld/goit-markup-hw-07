@@ -94,7 +94,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--text-on-background);
+  color: #ffffff;
   display: block;
   margin-bottom: 20px;
 }
@@ -102,18 +102,20 @@ ul {
 .footer-address {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--text-on-background);
+  color: #ffffff;
 }
 
 .footer-mail,
 .footer-telefon {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--footer-email-telefon);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .container {
@@ -169,11 +171,6 @@ ul {
   width: 20px;
   height: 20px;
   fill: #ffffff;
-}
-
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /*форма в футере*/

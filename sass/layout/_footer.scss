@@ -1,11 +1,10 @@
 /******************  Футер *********************/
-
 .footer-join {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--text-on-background);
+  color: $text-on-background;
   display: block;
   margin-bottom: 20px;
 }
@@ -13,26 +12,28 @@
 .footer-address {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--text-on-background);
+  color: $text-on-background;
 }
 
 .footer-mail,
 .footer-telefon {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--footer-email-telefon);
+  color: $footer-email-telefon;
 }
 
 .footer {
   background-color: #2f303a;
-}
+  padding-top: 60px;
+  padding-bottom: 60px;
 
-.footer .container {
-  display: flex;
-}
+  .container {
+    display: flex;
+  }
 
-.footer .logo-footer-distance {
-  margin-bottom: 20px;
+  .logo-footer-distance {
+    margin-bottom: 20px;
+  }
 }
 
 .footer .list-style > li:not(:last-child) {
@@ -60,10 +61,10 @@
   transition: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-join-icon:hover {
-  background-color: #2196f3;
+  &:hover {
+    background-color: #2196f3;
+  }
 }
 
 .footer-list-style {
@@ -83,11 +84,6 @@
   fill: #ffffff;
 }
 
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 /*форма в футере*/
 .footer-container-form {
   padding-top: 12px;
@@ -103,11 +99,12 @@
   color: #ffffff;
   outline-color: rgba(255, 255, 255, 0.3);
   margin-right: 12px;
-}
-.footer-email::placeholder {
-  font-size: 16px;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 0.6);
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .footer-button-icon {
