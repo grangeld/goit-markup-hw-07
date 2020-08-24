@@ -617,7 +617,7 @@ ul {
 
 .address-navigation-icon {
   margin-right: 10px;
-  fill: var(--header-email-telefon);
+  fill: #757575;
   vertical-align: middle;
   transition: fill;
   transition-duration: 250ms;
