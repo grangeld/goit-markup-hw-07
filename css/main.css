@@ -1,15 +1,4 @@
 @charset "UTF-8";
-:root {
-  --footer-email-telefon: rgba(255, 255, 255, 0.6);
-  --header-email-telefon: #757575;
-  --text-color: #757575;
-  --header-color-logo: #000000;
-  --logo-color-web: #2196f3;
-  --link-changing-color: #2196f3;
-  --text-on-background: #ffffff;
-  --heading-text-color: #212121;
-}
-
 /* создание border-box */
 html {
   box-sizing: border-box;
@@ -330,7 +319,7 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: var(--heading-text-color);
+  color: #212121;
   margin-top: 0px;
   margin-bottom: 10px;
 }
@@ -339,7 +328,7 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: var(--text-color);
+  color: #757575;
   margin-top: 0px;
   margin-bottom: 28px;
 }
