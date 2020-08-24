@@ -676,16 +676,6 @@ ul {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-customers-link:focus,
-.section-customers-link:hover {
-  border-color: #2196f3;
-}
-
-.section-customers-link:hover .section-customers-icon,
-.section-customers-link:focus .section-customers-icon {
-  fill: #2196f3;
-}
-
 .section-customers-link {
   display: flex;
   justify-content: center;
@@ -696,6 +686,15 @@ ul {
   box-sizing: border-box;
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-customers-link:focus, .section-customers-link:hover {
+  border-color: #2196f3;
+}
+
+.section-customers-link:hover .section-customers-icon,
+.section-customers-link:focus .section-customers-icon {
+  fill: #2196f3;
 }
 
 /********************  portfolio.html  ****************************/
