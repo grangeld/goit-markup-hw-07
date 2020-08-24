@@ -1,5 +1,6 @@
 @import './utils/variables';
 @import './base/base';
+
 @import './layout/logo';
 
 @import './layout/footer';
@@ -17,5 +18,5 @@
 @import './layout/our-occupation';
 @import './layout/regular-customers';
 @import './pages/portfolio';
-
-@import './temp';
+@import './components/modal-button';
+@import './components/modal';

@@ -15,7 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: $text-color;
-  background-color: #ffffff;
+  background-color: $body-color;
   margin: 0px;
 }
 
@@ -52,5 +52,5 @@ ul {
   font-size: 36px;
   text-align: center;
   line-height: 1.17;
-  color: var(--heading-text-color);
+  color: $heading-text-color;
 }

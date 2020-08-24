@@ -1,3 +1,11 @@
+%work-button-shodow {
+  background-color: $link-changing-color;
+  color: $text-on-background;
+  outline: none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
 /*кнопки*/
 .work-button {
   font-style: normal;
@@ -17,14 +25,13 @@
   transition: box-shadow, background-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    @extend %work-button-shodow;
+  }
 }
 
-.work-button:hover,
-.work-button:focus,
 .active {
-  background-color: var(--link-changing-color);
-  color: var(--text-on-background);
-  outline: none;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 3px 1px rgba(0, 0, 0, 0.1);
+  @extend %work-button-shodow;
 }
